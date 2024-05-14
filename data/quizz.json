@@ -1,0 +1,126 @@
+{
+    "listeOfQuizz": [
+        {
+            "id": "Q1",
+            "articleId": "ARTC2",
+            "questions": [
+                {
+                    "question": "Dans les réseaux informatiques, un protocole de communication est... ",
+                    "reponses_possible": [
+                        "un ensemble de règles",
+                        "une liaison ADSL"
+                    ],
+                    "reponse_exacte": "un ensemble de règles"
+                },
+                {
+                    "question": "Sur Internet, la consultation de son compte bancaire passe par le protocole... ",
+                    "reponses_possible": [
+                        "http",
+                        "https",
+                        "TCP/IP",
+                        "POP3",
+                        "ftp",
+                        "smtp"
+                    ],
+                    "reponse_exacte": "https"
+                },
+                {
+                    "question": "La consultation d'un site d'information comme Ouest-France à l'aide de son navigateur habituel passe par le protocole... :  ",
+                    "reponses_possible": [
+                        "http",
+                        "https",
+                        "TCP/IP",
+                        "POP3",
+                        "ftp",
+                        "smtp"
+                    ],
+                    "reponse_exacte": "http"
+                },
+                {
+                    "question": "C'est le protocole de communication sur Internet... ",
+                    "reponses_possible": [
+                        "http",
+                        "https",
+                        "TCP/IP",
+                        "POP3",
+                        "ftp",
+                        "smtp"
+                    ],
+                    "reponse_exacte": "TCP/IP"
+                },
+                {
+                    "question": "Pour la saisie d'informations personnelles lors d'un achat en ligne, je vérifie la sécurisation du site grâce au protocole...  ",
+                    "reponses_possible": [
+                        "http",
+                        "https",
+                        "TCP/IP",
+                        "POP3",
+                        "ftp",
+                        "smtp"
+                    ],
+                    "reponse_exacte": "https"
+                },
+                {
+                    "question": "Pour récupérer des courriers électroniques situés sur un serveur de messagerie électronique, j'utilise le protocole...  ",
+                    "reponses_possible": [
+                        "http",
+                        "https",
+                        "TCP/IP",
+                        "POP3",
+                        "ftp",
+                        "smtp"
+                    ],
+                    "reponse_exacte": "POP3"
+                },
+                {
+                    "question": "La consultation du site web du collège passe par le protocole...  ",
+                    "reponses_possible": [
+                        "http",
+                        "https",
+                        "TCP/IP",
+                        "POP3",
+                        "ftp",
+                        "smtp"
+                    ],
+                    "reponse_exacte": "http"
+                },
+                {
+                    "question": "Un webmaster qui dépose des fichiers sur son site web (hébergé sur un serveur web) utilise le protocole...  ",
+                    "reponses_possible": [
+                        "http",
+                        "https",
+                        "TCP/IP",
+                        "POP3",
+                        "ftp",
+                        "smtp"
+                    ],
+                    "reponse_exacte": "ftp"
+                },
+                {
+                    "question": "j'envoie un courriel à l'aide de ma messagerie électronique, c'est le protocole...  ",
+                    "reponses_possible": [
+                        "http",
+                        "https",
+                        "TCP/IP",
+                        "POP3",
+                        "ftp",
+                        "smtp"
+                    ],
+                    "reponse_exacte": "smtp"
+                },
+                {
+                    "question": "Sur Internet, les données sont transférées par paquets d'un ordinateur à l'autre, c'est le protocole... ",
+                    "reponses_possible": [
+                        "http",
+                        "https",
+                        "TCP/IP",
+                        "POP3",
+                        "ftp",
+                        "smtp"
+                    ],
+                    "reponse_exacte": "TCP/IP"
+                }
+            ]
+        }
+    ]
+}
