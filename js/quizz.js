@@ -31,7 +31,7 @@ function loadQuizz() {
         })
 
         document.getElementById("display-quizz").innerHTML =
-            reponse + "<button type='submit' onClick='return getResults(" + nbq + ");'> Envoyer mes réponses </button>"
+            reponse + "<button class='btn btn-primary' type='submit' onClick='return getResults(" + nbq + ");'> Envoyer mes réponses </button>"
 
     }
     xmlhttp.open("GET", "../data/quizz.json");
