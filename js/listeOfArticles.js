@@ -8,7 +8,7 @@ xmlhttp.onload = function () {
         res =
             '<div class="div-article">' +
             '<img id="image" src=' + element.image + ' />' +
-            '<a href="article?id='+element.id+'"> ' + element.title + ' </a>' +
+            '<a href="'+element.url+'?id='+element.id+'"> ' + element.title + ' </a>' +
             '</div>' + res
     });
     document.getElementById("liste-of-articles").innerHTML = res;
