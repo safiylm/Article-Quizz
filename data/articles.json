@@ -1,37 +1,17 @@
 {
     "listeOfArticles": [
+     
         {
-            "id":"ARTC1",
-            "title": "How Do Web Sessions Work?",
-            "image": "",
-            "content": ""
-        },
-        {
-            "id":"ARTC2",
+            "id": "ARTC2",
             "title": "HTTP Protocol",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR59yYzlLJlZ3GL7ykUCtoc0vlVphzWVc2QQMrdjye6AQ&s",
-            "content": [
-                "<h1>Définition</h1>",
-                "Le protocole HTTP, pour HyperText Transfer Protocol, est un protocole de communication client-serveur qui permet d'accéder à des ressources situées sur un serveur Web. Aujourd'hui, on lui préfère le HTTPS, dont le S signifie Secured, il s'agit d'une variante sécurisée du protocole HTTP et qui s'appuie sur les protocoles TLS pour chiffrer les échanges entre le client et le serveur.\n" ,
-            "</br></br>\n" ,
-            "Pour communiquer avec un serveur Web au travers du protocole HTTP, on s'appuiera sur un client HTTP. Au quotidien, ce client HTTP prend la forme d'un navigateur Internet (Firefox, Chrome, Edge, etc...), même s'il existe de nombreux outils, notamment en ligne de commandes, capable d'effectuer des requêtes Web.\n" ,
-            "</br></br>\n" ,
-            "Depuis les débuts de l'Internet, le protocole HTTP (et maintenant le HTTPS) est utilisé sur les serveurs Web, notamment pour héberger un site Internet, que ce soit un blog, un site vitrine, ou un site d'e-commerce. Le HTTPS est recommandé, car il est sécurisé (échanges chiffrés) contrairement au HTTP.</br></br>" ,
-            "</br> <h2>Quel est le port utilisé par le HTTP ?</h2></br></br>\n" ,
-            "\n" ,
-            "Pour les communications entre un client HTTP et un serveur Web, le port 80 est utilisé lorsque le protocole HTTP sert à établir la connexion. Autrement dit, le serveur Web écoute sur le port 80 pour recevoir les requêtes HTTP émises par les clients.\n" ,
-            "\n" ,
-            "</br></br>C'est le seul numéro de port associé au protocole HTTP. Ainsi, lorsque l'on se connecte sur une page Web, par exemple \"http://www.domaine.fr\", le navigateur sait qu'il doit envoyer sa requête sur le port 80 du serveur Web. Néanmoins, il est possible d'utiliser un port d'écoute différent sur son serveur Web, dans ce cas il faudra le spécifier au niveau de la requête. Si le port 80 est remplacé par le port 8080, il faudra utiliser la syntaxe suivante : http://www.domaine.fr:8080.\n" ,
-            "\n" ,
-            "</br></br>Pour information, le protocole HTTPS utilise un numéro de port différent puisqu'il s'appuie sur le port 443." ,
-            "https://www.it-connect.fr/le-protocole-http-pour-les-debutants/?utm_content=cmp-true "
-            ]
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR59yYzlLJlZ3GL7ykUCtoc0vlVphzWVc2QQMrdjye6AQ&s"
+            , "url": "/article/protocole_internet.php"
         },
         {
-            "id":"ARTC3",
+            "id": "ARTC3",
             "title": "Animation css ",
-            "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fulvbh5kb1wurvegzz7bs.png",
-            "content": ""
+            "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fulvbh5kb1wurvegzz7bs.png"
+            , "url": "/article/animation.php"
         }
     ]
 }
