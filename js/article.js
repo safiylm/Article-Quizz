@@ -9,12 +9,11 @@ function loadArticle() {
         const myObj = JSON.parse(this.responseText);
         let res = myObj.listeOfArticles.filter(e => e.id == id);
 
-
-        document.getElementById("display-article").innerHTML =
-            "<h1 id='titre'> " + res[0].title + "</h1>" +
-            "<img id='image' src='" + res[0].image + "' />" +
-            "<div id='contenu'> " + res[0].content + "</div>"
-
+            document.getElementById("display-article").innerHTML =
+                "<h1 id='titre'> " + res[0].title + "</h1>" +
+                "<img id='image' src='" + res[0].image + "' />" 
+             
+     
 
     }
     xmlhttp.open("GET", "../data/articles.json");
