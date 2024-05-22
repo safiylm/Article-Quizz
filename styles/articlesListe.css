@@ -1,0 +1,25 @@
+#liste-of-articles .div-article {
+    width: 310px;
+    height: 340px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px 5px #f1f1f1;
+        border-radius: 0;
+   
+    img {
+        width: 310px;
+        height: 260px;
+        object-fit: cover;
+        border-radius:  0;
+
+    }
+
+    a {
+        height: 80px;
+        margin: 20px 10px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        display: block;
+
+    }
+}
