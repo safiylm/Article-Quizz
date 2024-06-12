@@ -1,0 +1,15 @@
+#div-edit-user-data{
+  height : 50vh;
+  width: 60vw;
+  margin: 10px auto;
+
+}
+#div-edit-user-data form{
+  border-radius:10px;
+  background-color:  #f7fafc ;
+}
+
+#div-edit-user-data label,
+#div-edit-user-data button{
+  margin: 25px 25px 0 25px ;
+}
