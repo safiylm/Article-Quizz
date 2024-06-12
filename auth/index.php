@@ -11,15 +11,13 @@
 
 <body>
 
-    <?php include("../nav/index.php");?>
+    <?php
+    include("../nav/index.php"); ?>
     <div class="auth-container d-flex align-items-center justify-content-center">
 
-        <img src="https://productive.fish/learning-style-quiz/illustration/learning-style-quiz-md@2x.avif" alt='learning quizz' />
+    <!--    <img src="https://productive.fish/learning-style-quiz/illustration/learning-style-quiz-md@2x.avif" alt='learning quizz' />-->
         <div class="div-voisin-image d-flex flex-column align-items-center justify-content-center">
-            <div class="d-flex align-items-center justify-content-center">
-                <button id="btn-connexion" class="auth-active">Connexion</button>
-                <button id="btn-inscription">Inscription</button>
-            </div>
+
 
             <form id="form-inscription" action="post-inscription.php" method="post">
                 <h1>Inscription</h1>
@@ -47,6 +45,9 @@
 
                 <button class="btn btn-primary" type="submit">S'inscrire </button>
 
+                <button type="button" id="btn-connexion" class="btn btn-primary">Déjà inscrit? Se connecter </button>
+
+
             </form>
 
             <form id="form-connexion" action="post-connexion.php" method="post">
@@ -64,16 +65,24 @@
                 </div>
 
                 <?php
-                if ($_GET['pwdinvalid'] == "true") {
-                    echo " <p>Mot de passe invalide! Réessayer! </p>";
-                }
-                if ($_GET['emailinvalid'] == "true") {
-                    echo " <p> Email invalide et/ou mot de passe invalide! Réessayer! </p>";
+
+                 if (!empty($_GET['error']) ){
+                    if ($_GET['error'] == "password") {
+                        echo " <p style='color:red;'>Mot de passe invalide! Réessayer! </p>";
+                    }
+
+                    if ($_GET['error'] == "emailpassword") {
+                        echo " <p style='color:red;'> Email invalide et/ou mot de passe invalide! Réessayer! </p>";
+                    }
                 }
                 ?>
+
                 <button class="btn btn-primary" type="submit">Se connecter </button>
 
                 <a href="motdepasse-oublie/enter-email.php">Mot de passe oublié ?</a>
+
+                <button type="button" id="btn-inscription" class="btn btn-primary">Pas de compte? S'inscrire </button>
+
             </form>
         </div>
 
@@ -85,28 +94,15 @@
     <script>
         $(document).ready(function() {
             $("#form-inscription").hide();
-            $("#btn-connexion").css("background-color", "#d2d2d2");
 
             $("#btn-connexion").click(function() {
                 $("#form-connexion").show();
-                $("#btn-connexion").css("background-color", "#d2d2d2");
-
                 $("#form-inscription").hide();
-                $("#btn-inscription").removeClass(".auth-active");
-                $("#btn-inscription").css("background-color", "whitesmoke");
-
             });
 
             $("#btn-inscription").click(function() {
                 $("#form-connexion").hide();
-                $("#btn-connexion").removeClass(".auth-active");
-                $("#btn-connexion").css("background-color", "whitesmoke");
-
-
                 $("#form-inscription").show();
-                $("#btn-inscription").addClass(".auth-active");
-                $("#btn-inscription").css("background-color", "#d2d2d2");
-
 
             });
         })
