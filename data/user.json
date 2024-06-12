@@ -1,0 +1,25 @@
+{
+    "listeOfUser": [
+        {
+            "id": 0,
+            "nom": "Valmon",
+            "prenom": "Estelle",
+            "email": "estelle@gmail.com",
+            "password": "Estelle1"
+        },
+        {
+            "id": 2,
+            "nom": "Yilmaz",
+            "prenom": "Safinaz",
+            "email": "safinaz@yilmaz.com",
+            "password": "$2y$10$VtvYpkrHRLmUiNk39JB.0OMi\/ZnsOxNAjBHwR7HhKcIB8QGWx9uLK"
+        },
+        {
+            "id": 2,
+            "nom": "Yilmaz",
+            "prenom": "Ecem",
+            "email": "ecem@yilmaz.com",
+            "password": "$2y$10$T\/l49NlcxV5pK4RrHBXJ3OAiLKL2BDsz0Ac9EYNMoLCpXaKYYmvP6"
+        }
+    ]
+}
