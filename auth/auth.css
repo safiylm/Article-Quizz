@@ -1,31 +1,37 @@
+body{
+    background-color: aliceblue;
+}
 .auth-container {
-  width: 100vw;
+    width: 100vw;
     height: 80vh;
 }
 
 /*.auth-container img,*/
-.auth-container .div-voisin-image{
-    width: 65vw;
+.auth-container .div-voisin-image {
+    width: auto;
     height: auto;
-    background-color: skyblue;
+    background-color: #fff;
+    padding: 0 40px;
+    border-radius: 30px;
 }
 
-@media (max-width:600px){
-  .auth-container .div-voisin-image{
-    width: 85vw;
-  }
+@media (max-width:600px) {
+    .auth-container .div-voisin-image {
+        width: 85vw;
+    }
 }
 
 
 
 .auth-container #btn-connexion,
 .auth-container #btn-inscription {
-    border:none;
-    background-color:  transparent;
+    border: none;
+    background-color: transparent;
     text-decoration: underline;
-    color: black;
-    margin: 10px auto;
+    color: #1a4589;
+    margin: 25px auto;
     display: block;
+    font-weight: bolder;
 }
 
 
@@ -37,21 +43,24 @@
 }
 
 .auth-container form h1 {
-    margin: 20px auto;
+    margin: 40px auto;
+    color: #1a4589;
+    font-weight: bolder;
 }
 
 .auth-container .form-control {
-    margin: 10px 0;
+    margin: 15px 0;
+    padding: .6rem 1.2rem !important;
     outline: none;
     width: 100%;
     border-radius: 10px;
 }
 
 #btn-eyes-password {
-    background-color: rgb(239, 221, 221);
+    background-color: aliceblue;
     border-radius: 0 10px 10px 0;
     border: none;
-    padding: .375rem .75rem !important;
+    padding: .6rem 1.2rem !important;
 }
 
 #input-password {
@@ -60,10 +69,16 @@
 }
 
 .auth-container button[type="submit"] {
-    margin: 10px auto;
+    margin: 15px auto;
+    font-size: large;
+    padding: .6rem 1.2rem !important;
     display: block;
+    font-weight: 800;
 }
 
-.auth-container a{
-    color: black;
+.auth-container a {
+    color: #1a4589;
+    margin: 25px auto;
+    display: block;
+    font-weight: bolder;
 }

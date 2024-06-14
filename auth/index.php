@@ -79,7 +79,7 @@
 
                 <button class="btn btn-primary" type="submit">Se connecter </button>
 
-                <a href="motdepasse-oublie/enter-email.php">Mot de passe oublié ?</a>
+                <a href="">Mot de passe oublié ?</a>
 
                 <button type="button" id="btn-inscription" class="btn btn-primary">Pas de compte? S'inscrire </button>
 
