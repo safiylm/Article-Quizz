@@ -9,7 +9,20 @@
 </head>
 
 <body>
-<?php session_start();?>
+  <?php 
+  
+  session_start();
+  include('shared/article-card.php');
+  include('shared/quizz-card.php');
+  // Read the JSON file  
+  $json = file_get_contents('data/articles.json');
+  $json1 = file_get_contents('data/quizz.json');
+  // Decode the JSON file 
+  $json_articles = json_decode($json, true);
+  $json_quizz = json_decode($json1 , true);
+  ?>
+
+
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"> Article & Quizz </a>
@@ -41,12 +54,28 @@
     </div>
   </nav>
 
+  <h1>Nos articles</h1>
+
   <div id="liste-of-articles" class="d-flex flex-wrap align-items-center justify-content-center">
+    <?php
+    foreach ($json_articles["listeOfArticles"] as $elment) {
+      article_card($elment);
+    }
+    ?>
+  </div>
+ 
+  <h1>Quizz</h1>
+
+  <div id="liste-of-articles" class="d-flex flex-wrap align-items-center justify-content-center">
+    <?php
+    foreach ($json_quizz["listeOfQuizz"] as $elment) {
+      quizz_card($elment);
+    }
+    ?>
   </div>
 
-  <script src="js/listeOfArticles.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-</body>
 
+</body>
 </html>
