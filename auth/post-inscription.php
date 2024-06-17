@@ -26,7 +26,7 @@ $newuser['password']= password_hash($_POST['password'],  PASSWORD_BCRYPT);
 print_r($newuser);
 $_SESSION['user'] = $newuser;
 
-array_push($tab["listeOfUser"], $newuser);
+array_push($tab["user"], $newuser);
 
 
 $jsonString = json_encode($tab , JSON_PRETTY_PRINT);

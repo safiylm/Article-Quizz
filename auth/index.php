@@ -12,7 +12,7 @@
 <body>
 
     <?php
-    include("../nav/index.php"); ?>
+    include("../shared/nav.php"); ?>
     <div class="auth-container d-flex align-items-center justify-content-center">
 
     <!--    <img src="https://productive.fish/learning-style-quiz/illustration/learning-style-quiz-md@2x.avif" alt='learning quizz' />-->
