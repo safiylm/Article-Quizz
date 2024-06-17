@@ -1,3 +1,11 @@
+h1{
+    text-align: center;
+    margin: 40px auto;
+    color: #1a4589;
+    font-weight: bolder;
+    
+}
+
 #liste-of-articles .div-article {
     width: 310px;
     height: 340px;
@@ -23,3 +31,4 @@
 
     }
 }
+

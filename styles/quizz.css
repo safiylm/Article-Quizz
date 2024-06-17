@@ -15,3 +15,10 @@
           width: 95vw;
     }
 }
+
+h1{
+    text-align: center !important;
+    margin:50px auto !important;
+    color: #1a4589 !important;
+    font-weight: bolder !important;
+}
