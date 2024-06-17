@@ -1,5 +1,5 @@
 {
-    "listeOfUser": [
+    "user": [
         {
             "id": 0,
             "nom": "Valmon",
@@ -8,7 +8,7 @@
             "password": "Estelle1"
         },
         {
-            "id": 2,
+            "id": 1,
             "nom": "Yilmaz",
             "prenom": "Safinaz",
             "email": "safinaz@yilmaz.com",
@@ -20,6 +20,19 @@
             "prenom": "Ecem",
             "email": "ecem@yilmaz.com",
             "password": "$2y$10$T\/l49NlcxV5pK4RrHBXJ3OAiLKL2BDsz0Ac9EYNMoLCpXaKYYmvP6"
+        }
+    ],
+    "quizscore": [
+     
+        {
+            "userId": 1,
+            "quizId": "Q2",
+            "score": "1\/2"
+        },
+        {
+            "userId": 1,
+            "quizId": "Q2",
+            "score": "1\/2"
         }
     ]
 }

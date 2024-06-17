@@ -1,23 +1,52 @@
 {
     "listeOfArticles": [
-
         {
             "id": "ARTC2",
-            "title": "HTTP Protocol",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR59yYzlLJlZ3GL7ykUCtoc0vlVphzWVc2QQMrdjye6AQ&s"
-            , "url": "/article/protocole_internet.php"
+            "title": "Internet Protocol",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR59yYzlLJlZ3GL7ykUCtoc0vlVphzWVc2QQMrdjye6AQ&s",
+            "url": "/article/protocole_internet.php"
         },
         {
             "id": "ARTC3",
             "title": "Animation css ",
-            "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fulvbh5kb1wurvegzz7bs.png"
-            , "url": "/article/animation.php"
+            "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fulvbh5kb1wurvegzz7bs.png",
+            "url": "/article/animation.php"
         },
         {
             "id": "ARTC4",
             "title": "Javascript Shorthand",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
-            , "url": "/article/jsshorthand.php"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+            "url": "/article/jsshorthand.php"
+        },
+        {
+            "id": "ARTC5",
+            "title": "React JS",
+            "image": "https://www.patterns.dev/img/reactjs/react-logo@3x.svg",
+            "url": ""
+        },
+        {
+            "id": "ARTC6",
+            "title": "Angular",
+            "image": "https://angular.io/assets/images/logos/angular/angular.svg",
+            "url": ""
+        },
+        {
+            "id": "ARTC7",
+            "title": "Design UI/UX",
+            "image": "https://media.geeksforgeeks.org/wp-content/uploads/20230209164251/How-to-Become-a-UIUX-Designer.png",
+            "url": ""
+        },
+        {
+            "id": "ARTC8",
+            "title": "SEO",
+            "image": "https://www.easycom.fr/wp-content/uploads/2021/09/Capture-d%E2%80%99%C3%A9cran-2021-09-23-%C3%A0-09.25.21.png",
+            "url": "/article/seo.php"
+        },
+        {
+            "id": "ARTC9",
+            "title": "Web securité",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO_eK19EXPDsJmtBcngpQ55KPvfCSq3Gy3SQ&s",
+            "url": ""
         }
     ]
 }
