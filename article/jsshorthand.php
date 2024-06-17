@@ -15,7 +15,7 @@ session_start();
 
 <body onload="loadArticle(); loadQuizz();">
 
-    <?php include("../nav/index.php"); ?>
+<?php include("../shared/nav.php"); ?>
 
     <div id="display-article">
     </div>
