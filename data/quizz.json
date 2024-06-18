@@ -61,7 +61,42 @@
                         "smtp"
                     ],
                     "reponse_exacte": "https"
+                }
+            ]
+        },
+        {
+            "id": "Q2",
+            "image": "https://www.patterns.dev/img/reactjs/react-logo@3x.svg",
+            "title": "React JS",
+            "articleId": "ARTC5",
+            "questions": [
+                {
+                    "question": "What is the correct syntax to import a Component from React?",
+                    "reponses_possible": [
+                        "<code>import { Component } from 'react'</code>",
+                        "<code>import [ Component ] from 'react'</code>",
+                        "<code>import React.Component from 'react'</code>",
+                        "<code>import Component from 'react'</code>"
+                    ],
+                    "reponse_exacte": "<code>import { Component } from 'react'</code>"
                 },
+                {
+                    "question": "Although React Hooks generally replace class components, there are no plans to remove classes from React.",
+                    "reponses_possible": [
+                        "True",
+                        "False"
+                    ],
+                    "reponse_exacte": "True"
+                }
+            ]
+        },
+        {
+            "id": "Q3",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR59yYzlLJlZ3GL7ykUCtoc0vlVphzWVc2QQMrdjye6AQ&s",
+            "title": "Internet Protocol 2",
+            "articleId": "ARTC2",
+            "questions": [
+             
                 {
                     "question": "Pour récupérer des courriers électroniques situés sur un serveur de messagerie électronique, j'utilise le protocole...  ",
                     "reponses_possible": [
@@ -121,32 +156,6 @@
                         "smtp"
                     ],
                     "reponse_exacte": "TCP/IP"
-                }
-            ]
-        },
-        {
-            "id": "Q2",
-            "image": "https://www.patterns.dev/img/reactjs/react-logo@3x.svg",
-            "title": "React JS",
-            "articleId": "ARTC5",
-            "questions": [
-                {
-                    "question": "What is the correct syntax to import a Component from React?",
-                    "reponses_possible": [
-                        "<code>import { Component } from 'react'</code>",
-                        "<code>import [ Component ] from 'react'</code>",
-                        "<code>import React.Component from 'react'</code>",
-                        "<code>import Component from 'react'</code>"
-                    ],
-                    "reponse_exacte": "<code>import { Component } from 'react'</code>"
-                },
-                {
-                    "question": "Although React Hooks generally replace class components, there are no plans to remove classes from React.",
-                    "reponses_possible": [
-                        "True",
-                        "False"
-                    ],
-                    "reponse_exacte": "True"
                 }
             ]
         }
