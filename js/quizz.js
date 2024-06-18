@@ -21,7 +21,7 @@ function loadQuizz() {
 
             element.reponses_possible.forEach((r, j) => {
                 qr = qr + "<div class=\"form-check\">" +
-                    "<input class=\"form-check-input\" type=\"radio\" name=\"question" + i + "\"  value='" + String(r) + "' id='reponse" + j + "'>"
+                    "<input class=\"form-check-input\" type=\"radio\" name=\"question" + i + "\"  value=\"" + String(r) + "\" id='reponse" + j + "'>"
                     + ' <label class="form-check-label" for="reponse' + j + '" id="labelq' + i + 'r' + j + '">'
                     + r + "</label> </div>"
                 //On recupere toutes les reponses possibles on les concat
@@ -43,6 +43,7 @@ function loadQuizz() {
 function getResults(nbquestions, id) {
 
     let score = 0;
+    let res = [];
 
     // LOOP FOR GOING THROUGH ALL QUESTIONS
     for (let i = 0; i < nbquestions; i++) {
@@ -59,11 +60,14 @@ function getResults(nbquestions, id) {
                 radiosValue.style.backgroundColor = "green";
                 label.style.color = "green";
                 score = score + 1;
+                res.push(['q'+i , 'r'+j]);
+
             }
 
             if (radiosValue.value != quizz_array[0].questions[i].reponse_exacte && radiosValue.checked) {
                 label.style.color = "red";
                 label.style.textDecoration = "line-through";
+                res.push('q'+i , 'r'+j);
 
             }
 
@@ -75,7 +79,7 @@ function getResults(nbquestions, id) {
         }
     }
 
-    document.location.href = "post-quizz.php?id=" + id + "&score=" + score + "/" + nbquestions;
+    document.location.href = "post-quizz.php?id=" + id + "&score=" + score + "/" + nbquestions+"&resultat="+res;
     //document.getElementById('score').innerHTML = "<p>Votre score : " + score + "/" + nbquestions + " </p>"
 
 }
