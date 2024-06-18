@@ -69,7 +69,7 @@ session_start();
 
                     <tr>
                         <th scope="row">1</th>
-                        <td><a href="http://localhost/quizz/?id=<?php echo $elment['quizId']; ?>&resultat=<?php echo $elment['score']; ?>">
+                        <td><a href="http://localhost/quizz/resultat.php?idres=<?php echo $elment['id']; ?>">
                                 <?php foreach ($json_quizz['listeOfQuizz'] as $q) {                                
                                   if ($q['id'] == $elment['quizId'])
                                         echo  $q['title'];
@@ -89,9 +89,7 @@ session_start();
     ?>
 
     <style>
-        body {
-            /* background-color: #f8f8f8;*/
-        }
+      
 
         .div-articles-lu h2,
         .div-quizz-repondu h2 {
