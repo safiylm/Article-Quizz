@@ -22,3 +22,9 @@ h1{
     color: #1a4589 !important;
     font-weight: bolder !important;
 }
+
+.form-check-input:disabled~.form-check-label, 
+.form-check-input[disabled]~.form-check-label {
+    cursor: default;
+    opacity: .75 !important;
+}
