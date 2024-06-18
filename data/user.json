@@ -23,16 +23,33 @@
         }
     ],
     "quizscore": [
-     
         {
+            "id": 3,
             "userId": 1,
             "quizId": "Q2",
-            "score": "1\/2"
+            "score": "2\/2",
+            "resultat": "q0,r0,q1,r0"
         },
         {
+            "id": 5,
+            "userId": 1,
+            "quizId": "Q1",
+            "score": "4\/5",
+            "resultat": "q0,r0,q1,r1,q2,r0,q3,r2,q4,r4"
+        },
+        {
+            "id": 6,
+            "userId": 1,
+            "quizId": "Q3",
+            "score": "3\/5",
+            "resultat": "q0,r3,q1,r4,q2,r4,q3,r0,q4,r2"
+        },
+        {
+            "id": 7,
             "userId": 1,
             "quizId": "Q2",
-            "score": "1\/2"
+            "score": "0\/2",
+            "resultat": "q0,r2,q1,r1"
         }
     ]
 }
