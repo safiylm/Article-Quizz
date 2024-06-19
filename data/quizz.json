@@ -2,7 +2,7 @@
     "listeOfQuizz": [
         {
             "id": "Q1",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR59yYzlLJlZ3GL7ykUCtoc0vlVphzWVc2QQMrdjye6AQ&s",
+            "image": "https://ictframe.com/wp-content/uploads/Network-Protocols.png",
             "title": "Internet Protocol",
             "articleId": "ARTC2",
             "questions": [
@@ -87,16 +87,56 @@
                         "False"
                     ],
                     "reponse_exacte": "True"
+                },
+                {
+                    "question": "What's the fundamental building block of React apps?",
+                    "reponses_possible": [
+                        "Components",
+                        "Blocks",
+                        "Elements",
+                        "Effects"
+                    ],
+                    "reponse_exacte": "Components"
+                },
+                {
+                    "question": "What's the name of the syntax we use to describe the UI in React components?",
+                    "reponses_possible": [
+                        "FBJ",
+                        "Babel",
+                        "JSX",
+                        "ES2015"
+                    ],
+                    "reponse_exacte": "JSX"
+                },
+                {
+                    "question": "How does data flow naturally in React apps?",
+                    "reponses_possible": [
+                        "From parents to children",
+                        "From children to parents ",
+                        "Both ways",
+                        "The developpers decides"
+                    ],
+                    "reponse_exacte": "From parents to children"
+                },
+                {
+                    "question": "How to pass data into a child component?",
+                    "reponses_possible": [
+                        "State",
+                        "Props",
+                        "PropTypes",
+                        "Parameters"
+                    ],
+                    "reponse_exacte": "Props"
                 }
-            ]
+            ],
+            "": "https://react-quizzler.netlify.app/"
         },
         {
             "id": "Q3",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR59yYzlLJlZ3GL7ykUCtoc0vlVphzWVc2QQMrdjye6AQ&s",
+            "image": "https://ictframe.com/wp-content/uploads/Network-Protocols.png",
             "title": "Internet Protocol 2",
             "articleId": "ARTC2",
             "questions": [
-             
                 {
                     "question": "Pour récupérer des courriers électroniques situés sur un serveur de messagerie électronique, j'utilise le protocole...  ",
                     "reponses_possible": [
@@ -156,6 +196,171 @@
                         "smtp"
                     ],
                     "reponse_exacte": "TCP/IP"
+                }
+            ]
+        },
+        {
+            "id": "Q4",
+            "image": "https://1000logos.net/wp-content/uploads/2020/09/CSS-Logo.png",
+            "title": "CSS",
+            "articleId": "",
+            "questions": [
+                {
+                    "question": "Qu'est-ce que le CSS ? ",
+                    "reponses_possible": [
+                        "Cascading Style Sheets",
+                        "est un framework web libre écrit en Ruby.",
+                        "est un framework web libre écrit en CSS.",
+                        "C'est un langage de conception simple destiné à simplifier le processus de présentation des pages web"
+                    ],
+                    "reponse_exacte": "C'est un langage de conception simple destiné à simplifier le processus de présentation des pages web"
+                },
+                {
+                    "question": "Qui crée et maintien le CSS ?",
+                    "reponses_possible": [
+                        "En fait Le CSS a été créé et entretenu par un groupe de personnes au sein d'Oracle.",
+                        "En fait Le CSS a été créé et entretenu par un groupe de personnes au sein du W3C appelé le groupe de travail CSS. ",
+                        "En fait Le CSS a été créé et entretenu par un groupe de personnes au sein d'IBM."
+                    ],
+                    "reponse_exacte": "En fait Le CSS a été créé et entretenu par un groupe de personnes au sein du W3C appelé le groupe de travail CSS. "
+                },
+                {
+                    "question": "3/ Les éléments du CSS non encore en version finale sont des _____.",
+                    "reponses_possible": [
+                        "working draft",
+                        "tempory status",
+                        "wainting for approval",
+                        "request for comment"
+                    ],
+                    "reponse_exacte": "working draft"
+                },
+                {
+                    "question": " Par qui CSS est défini ?",
+                    "reponses_possible": [
+                        "Firefox",
+                        "W3C",
+                        "PandaCodeur.com",
+                        "Google",
+                        "IBM"
+                    ],
+                    "reponse_exacte": "W3C"
+                },
+                {
+                    "question": "Le CSS permet de gérer _____ d'un site.",
+                    "reponses_possible": [
+                        "la rapidité",
+                        "la mise en page",
+                        "les formulaires",
+                        "le contenue"
+                    ],
+                    "reponse_exacte": "la mise en page"
+                },
+                {
+                    "question": "Que signifie le sigle CSS ?",
+                    "reponses_possible": [
+                        "Cascading Style Sheets",
+                        "Cascading Style Secure",
+                        "Copyrigth Style Sheets",
+                        "Create Style Sheets"
+                    ],
+                    "reponse_exacte": "Cascading Style Sheets"
+                }
+            ]
+        },
+        {
+            "id": "Q5",
+            "image": "https://angular.io/assets/images/logos/angular/angular.svg",
+            "title": "Angular",
+            "articleId": "ARTC6",
+            "questions": [
+                {
+                    "question": "Router is part of which of the following module?",
+                    "reponses_possible": [
+                        "@angular/core",
+                        "@angular/router"
+                    ],
+                    "reponse_exacte": "@angular/router"
+                },
+                {
+                    "question": "Which of the following is not a hook in Angular 2 application life cycle.",
+                    "reponses_possible": [
+                        "ngOnInit",
+                        "ngOnChanges",
+                        "ngAfterViewInit",
+                        "ngViewStart"
+                    ],
+                    "reponse_exacte": "ngViewStart"
+                },
+                {
+                    "question": "Which of the following option is correct about tsconfig.json?",
+                    "reponses_possible": [
+                        "This file contains information about Angular 2 project.",
+                        "This file contains the system files required for Angular JS application.",
+                        "This file is used to give the options about TypeScript used for the Angular JS project."
+                    ],
+                    "reponse_exacte": "This file is used to give the options about TypeScript used for the Angular JS project."
+                }
+            ]
+        },
+        {
+            "id": "Q6",
+            "image": "https://www.easycom.fr/wp-content/uploads/2021/09/Capture-d%E2%80%99%C3%A9cran-2021-09-23-%C3%A0-09.25.21.png",
+            "title": "Seo",
+            "articleId": "ARTC8",
+            "questions": [
+                {
+                    "question": "Selon vous, à quoi sert le SEO (référencement naturel) ?",
+                    "reponses_possible": [
+                        "À être plus visible sur les réseaux sociaux",
+                        "À faire de la publicité sur les moteurs de recherche",
+                        "À être visible sur les moteurs de recherche"
+                    ],
+                    "reponse_exacte": "À être visible sur les moteurs de recherche"
+                },
+                {
+                    "question": "Combien de recherches sont faites chaque jour sur Google ?",
+                    "reponses_possible": [
+                        "Plus de 100 millions",
+                        "Plus de 10 millions",
+                        "Plus d’un milliard",
+                        "Plus de 5 milliards"
+                    ],
+                    "reponse_exacte": "Plus de 5 milliards"
+                },
+                {
+                    "question": "Pour une entreprise locale, le SEO c’est :",
+                    "reponses_possible": [
+                        "Trop compliqué & cher",
+                        "L’opportunité de trouver de nouveaux clients",
+                        "Pas important"
+                    ],
+                    "reponse_exacte": "L’opportunité de trouver de nouveaux clients"
+                },
+                {
+                    "question": "Les performances d’un site ont-elles un impact sur son positionnement sur Google ?",
+                    "reponses_possible": [
+                        "Vrai",
+                        "Faux"
+                    ],
+                    "reponse_exacte": "Vrai"
+                },
+                {
+                    "question": "Quelle est la longueur parfaite d’une balise titre ? (le titre en haut de la page d'un site)",
+                    "reponses_possible": [
+                        "60 caractères",
+                        "160 caractères",
+                        "120 caractères"
+                    ],
+                    "reponse_exacte": "60 caractères"
+                },
+                {
+                    "question": "À quoi sert la “meta description” ?",
+                    "reponses_possible": [
+                        "Décrire le contenu d’une image",
+                        "Décrire le contenu d’une page spécifique d’un site",
+                        "Décrire le contenu du site web"
+                    ],
+                    "reponse_exacte": "Décrire le contenu d’une page spécifique d’un site"
                 }
             ]
         }
