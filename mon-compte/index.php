@@ -8,6 +8,7 @@ session_start();
     <title> Mon compte | Article & Quizz </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../styles/edituserdata.css" rel="stylesheet">
+    <link href="../styles/menu-verticale.css" rel="stylesheet">
 
     <!-- //for font family -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
@@ -24,73 +25,88 @@ session_start();
 
     ?>
 
-    <div class="div-articles-lu">
-        <h2>Articles lu</h2>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Articles</th>
-                    <th scope="col">Date</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td><a href="http://localhost/article/jsshorthand.php?id=ARTC4">Javascript Shorthand</a></td>
-                    <td>11/02/2023</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td><a href="/article/animation.php?id=ARTC3">Animation css</a></td>
-                    <td>19/12/2022</td>
-                </tr>
+    <div class="container-grid">
 
-            </tbody>
-        </table>
+        <div id="item-menu">
+            <button id="btn-open-listesarticles">Articles</button>
+            <button id="btn-open-listesquizz">Quizz</button>
+        </div>
+
+
+        <div id="item-main">
+
+            <div id="div-container-articles">
+
+                <div class="div-articles-lu">
+                    <h2>Articles lu</h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Articles</th>
+                                <th scope="col">Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td><a href="http://localhost/article/jsshorthand.php?id=ARTC4">Javascript Shorthand</a></td>
+                                <td>11/02/2023</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td><a href="/article/animation.php?id=ARTC3">Animation css</a></td>
+                                <td>19/12/2022</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="div-container-quizz">
+                <div class="div-quizz-repondu">
+                    <h2>Quizz répondu </h2>
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Quizz</th>
+                                <th scope="col">Score</th>
+                                <th scope="col">Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php
+                            foreach ($json_user["quizscore"] as $elment) {
+                            ?>
+
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td><a href="http://localhost/quizz/resultat.php?idres=<?php echo $elment['id']; ?>">
+                                            <?php foreach ($json_quizz['listeOfQuizz'] as $q) {
+                                                if ($q['id'] == $elment['quizId'])
+                                                    echo  $q['title'];
+                                            }
+                                            ?>
+                                        </a></td>
+                                    <td><strong><?php echo $elment['score']; ?></strong></td>
+                                    <td>21/08/2023</td>
+                                </tr>
+                            <?php } ?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
     </div>
-
-    <div class="div-quizz-repondu">
-        <h2>Quizz répondu </h2>
-
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Quizz</th>
-                    <th scope="col">Score</th>
-                    <th scope="col">Date</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php
-                foreach ($json_user["quizscore"] as $elment) {
-                ?>
-
-                    <tr>
-                        <th scope="row">1</th>
-                        <td><a href="http://localhost/quizz/resultat.php?idres=<?php echo $elment['id']; ?>">
-                                <?php foreach ($json_quizz['listeOfQuizz'] as $q) {                                
-                                  if ($q['id'] == $elment['quizId'])
-                                        echo  $q['title'];
-                                }
-                                ?>
-                            </a></td>
-                        <td><strong><?php echo $elment['score']; ?></strong></td>
-                        <td>21/08/2023</td>
-                    </tr>
-                <?php } ?>
-            </tbody>
-        </table>
-    </div>
-
 
     <?php //include("edit-user-data.php"); 
     ?>
 
     <style>
-      
-
         .div-articles-lu h2,
         .div-quizz-repondu h2 {
             margin-bottom: 25px;
@@ -118,7 +134,21 @@ session_start();
         }
     </style>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      $("#div-container-quizz").hide();
 
+        $("#btn-open-listesarticles").click(()=>{
+            $("#div-container-quizz").hide();
+            $("#div-container-articles").show();
+
+        })
+        $("#btn-open-listesquizz").click(()=>{
+            $("#div-container-quizz").show();
+            $("#div-container-articles").hide();
+
+        })
+    </script>
 
 </body>
 
