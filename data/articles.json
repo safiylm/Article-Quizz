@@ -48,5 +48,42 @@
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO_eK19EXPDsJmtBcngpQ55KPvfCSq3Gy3SQ&s",
             "url": ""
         }
+        ,
+        {
+            "id": "ARTC10",
+            "title": "API vs API REST",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO_eK19EXPDsJmtBcngpQ55KPvfCSq3Gy3SQ&s",
+            "url": "/article/api_vs_apirest.php"
+        }
+        ,
+        {
+            "id": "ARTC11",
+            "title": "Interview Front end",
+            "image": "https://media.licdn.com/dms/image/D4D12AQGrErXUNFk7tQ/article-cover_image-shrink_720_1280/0/1694683835221?e=2147483647&v=beta&t=Fe_sr929dOOHtJKof_kFmfkfpeWzHdD5-6nr_rwPkjI",
+            "url": "/article/interviewFrontend.php"
+        }
+        ,
+        {
+            "id": "ARTC12",
+            "title": "Website vs web application",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO_eK19EXPDsJmtBcngpQ55KPvfCSq3Gy3SQ&s",
+            "url": "/article/website_vs_webapp.php"
+        }
+        ,
+        {
+            "id": "ARTC13",
+            "title": "Interview Angular",
+            "image": "https://angular.io/assets/images/logos/angular/angular.svg",
+            "url": "/article/interviewAngular.php"
+        }
+        ,
+        {
+            "id": "ARTC14",
+            "title": "Interview React.js",
+            "image": "https://www.patterns.dev/img/reactjs/react-logo@3x.svg",
+            "url": "/article/interviewReact.php"
+        }
+        
+    
     ]
 }
