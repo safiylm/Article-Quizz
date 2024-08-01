@@ -20,15 +20,16 @@
         },
         {
             "id": "ARTC5",
-            "title": "React JS",
-            "image": "https://www.patterns.dev/img/reactjs/react-logo@3x.svg",
-            "url": ""
-        },
+            "title": "Interview Angular",
+            "image": "https://angular.io/assets/images/logos/angular/angular.svg",
+            "url": "/article/interviewAngular.php"
+        }
+        ,
         {
             "id": "ARTC6",
-            "title": "Angular",
-            "image": "https://angular.io/assets/images/logos/angular/angular.svg",
-            "url": ""
+            "title": "Interview React.js",
+            "image": "https://www.patterns.dev/img/reactjs/react-logo@3x.svg",
+            "url": "/article/interviewReact.php"
         },
         {
             "id": "ARTC7",
@@ -46,7 +47,7 @@
             "id": "ARTC9",
             "title": "Web securité",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO_eK19EXPDsJmtBcngpQ55KPvfCSq3Gy3SQ&s",
-            "url": ""
+            "url": "/article/securite_web.php"
         }
         ,
         {
@@ -69,20 +70,7 @@
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO_eK19EXPDsJmtBcngpQ55KPvfCSq3Gy3SQ&s",
             "url": "/article/website_vs_webapp.php"
         }
-        ,
-        {
-            "id": "ARTC13",
-            "title": "Interview Angular",
-            "image": "https://angular.io/assets/images/logos/angular/angular.svg",
-            "url": "/article/interviewAngular.php"
-        }
-        ,
-        {
-            "id": "ARTC14",
-            "title": "Interview React.js",
-            "image": "https://www.patterns.dev/img/reactjs/react-logo@3x.svg",
-            "url": "/article/interviewReact.php"
-        }
+    
         
     
     ]

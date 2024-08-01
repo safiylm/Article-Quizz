@@ -272,26 +272,28 @@ session_start();
         <br />
         Vous pouvez utiliser un `ErrorHandler` personnalisé pour intercepter et gérer les erreurs globales dans une
         application Angular.
-        ```typescript
-        @Injectable()
-        export class GlobalErrorHandler implements ErrorHandler {
-        handleError(error: any): void {
-        // Logique de gestion des erreurs, comme l'envoi à un service de journalisation
-        console.error('An error occurred:', error);
-        }
-        }
-
-        @NgModule({
-        providers: [{ provide: ErrorHandler, useClass: GlobalErrorHandler }]
-        })
-        export class AppModule {}
-        ```
+        <code>
+        @Injectable()<br />
+        export class GlobalErrorHandler implements ErrorHandler {<br />
+        handleError(error: any): void {<br />
+        // Logique de gestion des erreurs, comme l'envoi à un service de journalisation<br />
+        console.error('An error occurred:', error);<br />
+        }<br />
+        }<br />
+        <br />
+        @NgModule({<br />
+        providers: [{ provide: ErrorHandler, useClass: GlobalErrorHandler }]<br />
+        })<br />
+        export class AppModule {}<br />
+        </code>
+        
+        </li>
+        </div>
 
         Préparer ces questions et comprendre les concepts sous-jacents vous aidera à réussir une interview technique sur
         Angular.
 
-      </li>
-    </div>
+    
 
   </div>
   

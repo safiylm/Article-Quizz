@@ -18,7 +18,7 @@ session_start();
     </style>
 </head>
 
-<body onload="loadArticle(); loadQuizz();">
+<body onload="loadArticle(); ">
 
     <?php include("../shared/nav.php"); ?>
 
@@ -279,12 +279,7 @@ session_start();
 
     </div>
 
-    <div id="display-quizz"></div>
-
     <script src='../js/article.js'>
-    </script>
-
-    <script src='../js/quizz.js'>
     </script>
 
 </body>

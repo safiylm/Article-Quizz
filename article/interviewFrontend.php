@@ -200,6 +200,7 @@ session_start();
         synchronisation automatique entre le modèle et la vue. Cela se fait principalement via les directives
         `ngModel`, `{{}}` pour l'interpolation, `[property]` pour la liaison de propriété, et `(event)` pour la
         liaison d'événement.
+        <a href='https://apprendre.bonjour-angular.com/cest-quoi/data-binding/'>En savoir plus </a>
       </li>
     </div>
 
